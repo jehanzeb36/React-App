@@ -47,7 +47,7 @@ function App() {
     {/* /users ---> Component 1
     /users ---> Componment 2  */}
       {/* <Router> */}
-        <Navbar titles="TextUtils" AboutText="About us" btn="Login" home="Home" mode={mode} toggleMode={toggleMode}/>
+        <Navbar titles="TextUtils" AboutText="About us" btn="Login" home="About" mode={mode} toggleMode={toggleMode}/>
         <Alert alert={alert}/>
         <div className="container">
           {/* <Routes> */}
